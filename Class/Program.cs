@@ -6,12 +6,10 @@ namespace Class
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Newclass ob = new Newclass();
-            string a = "Hello";
-            string b = "World";
 
-            ob.Display(a, b);
+            stringcon str = new stringcon();
+            str.st();
+
         }
         
     }
